@@ -1,6 +1,7 @@
 /* background-image: linear-gradient(to right, #20002c, #cbb4d4); */
+
 .navbar {
-    background-image: linear-gradient(to right, #20002c, #B097B9);
+    background-color: #43254E;
 }
 
 .navbar-brand {
@@ -21,4 +22,20 @@
 
 .carousel {
     background-color: #43254E;
+}
+
+
+
+#slider-btn {
+    background-color: #F27925;
+}
+
+@media screen and (min-width:280px) and (max-width:767px) {
+    #carouselExampleIndicators {
+        height: 610px;
+    }
+
+    .carousel-inner {
+        padding: 2rem 2rem !important;
+    }
 }
