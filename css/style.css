@@ -1,0 +1,24 @@
+/* background-image: linear-gradient(to right, #20002c, #cbb4d4); */
+.navbar {
+    background-image: linear-gradient(to right, #20002c, #B097B9);
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#carouselExampleIndicators {
+    height: 550px;
+}
+
+.carousel-item-image img {
+    width: 300px;
+}
+
+.carousel {
+    background-color: #43254E;
+}
