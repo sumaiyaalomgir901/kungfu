@@ -54,4 +54,8 @@ h2 {
     #carouselExampleIndicators {
         height: 610px;
     }
+
+    .slider-text-center {
+        text-align: center;
+    }
 }
