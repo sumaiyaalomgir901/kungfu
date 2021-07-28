@@ -1,4 +1,18 @@
 /* background-image: linear-gradient(to right, #20002c, #cbb4d4); */
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #43254E;
+}
+
+.margin-top {
+    margin-top: 80px;
+}
 
 .navbar {
     background-color: #43254E;
@@ -16,26 +30,28 @@
     height: 550px;
 }
 
-.carousel-item-image img {
-    width: 300px;
-}
-
 .carousel {
     background-color: #43254E;
 }
-
-
 
 #slider-btn {
     background-color: #F27925;
 }
 
+#card-btn {
+    color: #FFFFFF;
+    background-color: #20002c;
+    border: 2px solid transparent;
+}
+
+#card-btn:hover {
+    background-color: #FFFFFF;
+    color: #20002c;
+    border: 2px solid #20002c;
+}
+
 @media screen and (min-width:280px) and (max-width:767px) {
     #carouselExampleIndicators {
         height: 610px;
-    }
-
-    .carousel-inner {
-        padding: 2rem 2rem !important;
     }
 }
